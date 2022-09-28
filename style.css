@@ -1,0 +1,26 @@
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: #444;
+  color: white;
+  padding: 1em;
+  position: relative;
+  top: 0px;
+
+  /* transition-property: background-color;
+  transition-duration: 2s;
+  transition-timing-function: ease;
+  transition-delay: 1s; */
+
+  /* transition: background-color 2s ease 1s; */
+
+
+  transition: all ease 1s;
+}
+
+.box.changed {
+  background-color: #03bb03;
+  width: 400px;
+  color: black;
+  top: 100px;
+}
